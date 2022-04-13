@@ -1,0 +1,1 @@
+[2022-4-12 19:07:39] layer "logo.jpg8": Duplicate path: logo.jpg
