@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Schedule Mates - Contact Us</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="hidden">My Schedule Mates</h1>
+    	<header class="mainHeader grid">
+        	<div class="logoHeader">
+                <img src="images/logo.svg" alt="My Schedule Mates Logo" width="96" height="96">
+            </div>
+            <nav class="mainNav">
+                <h2 class="hidden">Main Navigation</h2>
+                <ul>
+                    <li class="selected"><a href="index.html">Home</a></li>
+                    <li><a href="#">Stationery</a></li>
+                    <li><a href="#.html">Blog</a></li>
+                    <li><a href="collection.html">My Collection</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <img src="images/search_bar.svg" alt="search bar" width="210" height="35">
+            </nav>
+        </header>
+
+        <section class="headBanner" id="contactMain">
+            <h2>CONTACT US</h2>
+            <h3>Explore how scheduling will help you organize well about your life</h3>
+        </section>
+
+        <section class="mainContact grid">
+                <h2 class="hidden">Contact page</h2>
+            <section id="contactArea">
+                <h2 class="hidden">Contact form</h2>
+                <p id="contactText">For more information about how to start your first journal, please send me your questions below.</p>
+               
+                <form id="contactForm" action="form.php" method="post">
+                    <label for="name">Name: <span class="required">(required)</span></label>
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter Your Name">
+
+                    <label for="email">Email: <span class="required">(required)</span></label>
+                    <input type="email" required id="email" size="30" placeholder="Enter Your Email">
+
+                    <label for="phone">Phone: <span class="required">(required)</span></label>
+                    <input type="tel" required id="phone" size="30" placeholder="Enter Your Phone Number">
+
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+
+                    <input id="submit" type="submit" value="SUBMIT">
+                </form>
+            </section> 
+
+        <section id="newsLetter">
+            <h3 class="hidden">News letter info.</h3>
+            <p>Do you know ...</p>
+            <p>There are major stationery exhabitions
+                in Japan  and Taiwan every year, many popolur stationery brands release their 
+                new products by that time.</p>    
+            <p class="oneLine">Click <a href="#"> Here </a> to submitscript our news letter, and to get latest information!</p>
+        
+        </section>
+    </section>
+
+        <footer class="mainFooter grid">
+            <div class="logoNav">
+                <div class="logoFooter">
+                    <img src="images/logo.svg" alt="My Schedule Mates Logo" width="50" height="50">
+                </div>
+                <nav class="footerNav" aria-label="Footer Navigation">
+                    <h2 class="hidden">Footer Navigation</h2>
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="#">stationery</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="collection.html">my collection</a></li>
+                            <li><a href="contact.html">contact Us</a></li>
+                        </ul>
+                </nav>
+                <div class="copyRight">
+                    <p> (c) 2022 My Schedule Mates Yukki Ngai</p>
+                </div>
+            </div>
+           
+
+            <div class="socialMedia">
+                <h2 class="hidden">Social Media</h2>
+                <ul id="iconNav">
+                    <li id="fb">
+                        <a href="http://www.facebook.com">
+                            <img src="images/fb.png" alt="facebook">
+                        </a>
+                    </li>
+
+                    <li id="twitter">
+                        <a href="http://www.Instagram.com">
+                            <img src="images/ig.png" alt="Instagram">
+                        </a>
+                    </li>
+
+                    <li id="youtude">
+                        <a href="http://www.youtube.com">
+                            <img src="images/youtube.png" alt="Youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </footer>
+        </div>
+    </body>
+</html>
