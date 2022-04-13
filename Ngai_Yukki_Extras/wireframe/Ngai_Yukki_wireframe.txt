@@ -1,0 +1,65 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: Ngai_Yukki_midterm.ai
+Color Mode: RGB color
+Color Profile: sRGB IEC61966-2.1
+Ruler Units: pixels
+Artboard Dimensions: 960 px x 1346.0704 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Franklin Gothic Book (OTF)
+Eras Light ITC (OTF)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+C:\Users\newli\Documents\Fanshawe\1051 Design & Image (Practicial)\Assignment\Ngai_Yukki_midterm_FIP_Wireframes\page1.png
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 4087K, 960 by 1090 pixels
+Dimensions: 960 by 1090 points 
+Resolution: 72 by 72 pixels per inch
+
+
+C:\Users\newli\Documents\Fanshawe\1051 Design & Image (Practicial)\Assignment\Ngai_Yukki_midterm_FIP_Wireframes\page2.png
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 4087K, 960 by 1090 pixels
+Dimensions: 960 by 1090 points 
+Resolution: 72 by 72 pixels per inch
+
+
+C:\Users\newli\Documents\Fanshawe\1051 Design & Image (Practicial)\Assignment\Ngai_Yukki_midterm_FIP_Wireframes\page3.png
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 4087K, 960 by 1090 pixels
+Dimensions: 960 by 1090 points 
+Resolution: 72 by 72 pixels per inch
