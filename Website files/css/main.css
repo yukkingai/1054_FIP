@@ -1,0 +1,408 @@
+div, p, body, header, footer, section, article, nav h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: none; /*Remove border if image is a link*/
+	margin: 0;
+	padding: 0;
+}
+
+/*html selectors*/
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #474747;
+	border-top: solid 15px #b3a3ba;
+	background-color: #ffffff;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239389a2' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+/* Remove underlines from links */
+
+a {
+	text-decoration: none;
+}
+
+/*hide elements from browser but show for doc outline*/
+
+.hidden {
+	display: none;
+}
+
+
+/*Common page elements  */
+
+/*This is essentially a box that we place the whole site in.
+We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 20px (960px) so it fits on 1024x768 screens.*/
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+	background-color: white;
+	/* this is our grid based off of our photoshop file */
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(10, 74px);
+	grid-column-gap: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.logoHeader {
+	grid-column: 1/2;
+	/* Remove as content will dictate height */
+	width: 96px;
+	margin-top: 15px;
+}
+
+
+
+.mainNav {
+	grid-column: 5/11;
+	/* Remove as content will dictate height */
+	height: 25px;
+	margin-top: 35px;
+	margin-bottom: 20px;
+
+}
+
+.mainNav img {
+	margin-left: 335px;
+	margin-bottom: 20px;
+}
+
+.mainNav ul {
+	list-style-type: none;
+	padding: 0;
+	text-align: right;
+}
+
+.mainNav ul li {
+	display: inline;
+	margin-left: 20px;
+}
+
+.mainNav ul li:first-child {
+	margin-left: 0;
+}
+
+.mainNav ul li a {
+	color: rgb(163, 119, 163);
+	padding: 5px;
+}
+
+.mainNav ul li a:hover {
+	background-color: #bcabc8;
+}
+
+.selected {
+	background-color:#bcabc8;
+	padding: 5px;
+}
+
+
+
+.mainFooter {
+	/* makes the grid ignore this element */
+	height: 150px;
+	background-color: #ccc;
+	background: url(../images/footer_bg.jpg) repeat-x;
+	margin-top: 20px;
+
+}
+
+
+.logoFooter img {
+	margin-top: 15px;
+	
+}
+
+.logoNav {
+	grid-column: 1/6;
+}
+
+.footerNav {
+	margin-top: auto;
+}
+
+
+.footerNav ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+.footerNav ul li {
+	display: inline;
+	margin-right: 25px;
+	font-size: 14px;
+}
+
+.footerNav ul li a {
+	color: #474747;
+}
+
+.footerNav ul li a:hover {
+	color: rgb(224, 224, 224);
+}
+
+.copyRight {
+	font-size: 12px;
+	color: black;
+}
+
+.socialMedia {
+	grid-column: 6/11;
+	margin-top: 20px;
+	justify-self: end;
+}
+
+#iconNav img {
+	width: 45px;
+	height: 45px;
+}
+
+#iconNav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#iconNav li {
+	display: inline;
+	margin-left: 10px;
+}
+
+#iconNav li a {
+	filter:grayscale(100%);
+}
+
+#iconNav li a:hover {
+	filter:grayscale(0%);
+}
+
+/* Unique Page Elements */
+
+/* Home page */
+
+.headBanner {
+	height: 347px;
+	background: url(../images/index_pic.jpg) no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-bottom: 40px;
+	margin-top: 20px;
+
+}
+
+.headBanner h2, .headBanner h3 {
+	text-align: center;
+	color: white;
+}
+
+.headBanner h2 {
+	font-size: 31px;
+	letter-spacing: -1px;
+}
+
+.headBanner h3 {
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.what {
+	grid-column: 1/6;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.why {
+	grid-column: 6/11;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.what p, .why p {
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 20px; 
+	line-height: 22px;
+	color: #474747;
+	text-align: justify;
+}
+
+.buttons {
+	display: block;
+	width: 94px;
+	background-color:#b3a3ba;
+	padding: 15px;
+	text-align: center;
+	margin-top: auto;
+	font-weight: bold;
+	color: white;
+	margin-left: 150px;
+	border-radius: 5px;
+}
+
+
+.buttons:hover {
+	background-color: #9d8ea3;
+}
+
+
+.ownerComment {
+	grid-column: 3/9;
+	background-color: #efefef;
+	height: 170px;
+	width: 520px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	
+}
+
+.ownerPic {
+	float:left;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 10px;
+}
+
+.ownerComment p {
+	margin-top: 20px;
+	line-height: 22px;
+	color: #474747;
+	font-size: 16px;
+}
+
+.commentName {
+	display: block;
+	font-weight: bold;
+	margin-top: 15px;
+	color: #b3a3ba;
+}
+
+
+/* Contact Page */
+
+#contactMain {
+	background: url(../images/con_pic.jpg) no-repeat;
+}
+
+.mainContact {
+padding-top: 0;
+padding-right: 20px;
+padding-left: 20px;
+}
+
+#contactArea {
+	grid-column: 1/6;
+	border-right: solid 1px #b3a3ba;
+	margin-bottom: 20px;
+}
+
+#contactText {
+	font-size: 16px;
+	width: 450px;
+	margin-bottom: 30px;
+}
+
+input, textarea {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 300px;
+	height: 10px;
+	background-color: #efefef;
+	border: 1px solid #9d8ea3;
+	color: #474747;
+	border-radius: 5px;
+}
+
+.required {
+	color: red;
+}
+
+#comments {
+	width: 400px;
+	height: 200px;
+}
+
+#submit {
+	width: 75px;
+	height: 30px;
+	background-color: #bcabc8;
+	color: #474747;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	margin-top: 30px;
+	margin-left: 175px;
+}
+
+
+#newsLetter {
+	width: 452px;
+	height: 631px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-bottom: 20px;
+	background: url(../images/con_newsletter.jpg) no-repeat;
+}
+
+#newsLetter p {
+	font-size: 16px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+/* Collection Page */
+
+#collectionMain {
+	background: url(../images/coll_pic.jpg);
+}
+
+.pens {
+	grid-column: 1/4;
+
+}
+
+.wahshi {
+	grid-column: 4/8;
+}
+
+.stickers {
+	grid-column: 8/11;
+}
+
+.stampInk {
+	grid-column: 1/11;
+}
+
+.pens, .wahshi, .stickers {
+	margin-bottom: 20px;
+}
+
+.mainCollection p {
+	font-size: 16px;
+	margin-top: 20px;
+	line-height: 22px;
+	color: #474747;
+	text-align: justify;
+}
+
+.stampInk {
+	margin-bottom: 20px;
+}
+
+.stampInk p {
+	width: 800px;
+	margin-left: 60px;
+}
